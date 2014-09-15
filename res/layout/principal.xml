@@ -1,0 +1,70 @@
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:id="@+id/mainScreen"
+    android:layout_width="fill_parent"
+    android:layout_height="fill_parent"
+    android:background="#ECF0F1"
+    android:orientation="vertical"
+    android:padding="20dp" >
+
+    <TextView
+        android:id="@+id/titleScreen"
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginBottom="10dp"
+        android:fontFamily="sans-serif-light"
+        android:gravity="center_horizontal"
+        android:padding="20dp"
+        android:text="@string/calend"
+        android:textColor="#333333"
+        android:textSize="40sp" />
+    
+    <ImageView
+        android:id="@+id/logo_home"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center"
+        android:src="@drawable/calendar" />
+    
+
+    <Button
+        android:id="@+id/novo"
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:layout_centerInParent="true"
+        android:layout_marginTop="10dp"
+        android:background="@drawable/rounded_corner"
+        android:onClick="novo"
+        android:text="@string/novoUsuario"
+        android:textColor="#ffffff" />
+
+    <Button
+        android:id="@+id/listar"
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="10dp"
+        android:background="@drawable/rounded_corner"
+        android:onClick="listar"
+        android:text="@string/listaUsuario"
+        android:textColor="#ffffff" />
+
+    <Button
+        android:id="@+id/novoPessoa"
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="10dp"
+        android:background="@drawable/rounded_corner"
+        android:onClick="novoPessoa"
+        android:text="@string/novoPessoa"
+        android:textColor="#ffffff" />
+
+    <Button
+        android:id="@+id/listarPessoa"
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="10dp"
+        android:background="@drawable/rounded_corner"
+        android:onClick="listarPessoa"
+        android:text="@string/listaPessoa"
+        android:textColor="#ffffff" />
+
+</LinearLayout>

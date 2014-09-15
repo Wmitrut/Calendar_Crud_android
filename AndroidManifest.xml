@@ -1,0 +1,43 @@
+<?xml version="1.0" encoding="utf-8"?>
+<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+    package="br.com.wmitrut.cadastrousuarios"
+    android:versionCode="1"
+    android:versionName="1.0" >
+
+    <uses-sdk
+        android:minSdkVersion="8"
+        android:targetSdkVersion="17" />
+
+    <application
+        android:allowBackup="true"
+        android:icon="@drawable/calendar"
+        android:label="@string/app_name"
+        android:theme="@style/AppTheme" >
+        <activity
+            android:name="br.com.wmitrut.cadastrousuarios.PrincipalActivity"
+            android:label="@string/app_name" >
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN" />
+
+                <category android:name="android.intent.category.LAUNCHER" />
+            </intent-filter>
+        </activity>
+        <activity
+            android:name="br.com.wmitrut.cadastrousuarios.CadastroUsuarioActivity"
+            android:label="@string/title_activity_cadastro_usuario" >
+        </activity>
+        <activity
+            android:name="br.com.wmitrut.cadastrousuarios.ListaUsuariosActivity"
+            android:label="@string/title_activity_lista_usuarios" >
+        </activity>
+        <activity
+            android:name="br.com.wmitrut.cadastrousuarios.CadastroPessoaActivity"
+            android:label="@string/title_activity_pessoa" >
+        </activity>
+        <activity
+            android:name="br.com.wmitrut.cadastrousuarios.ListaPessoasActivity"
+            android:label="@string/title_activity_lista_usuarios" >
+        </activity>
+    </application>
+
+</manifest>

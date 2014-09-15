@@ -1,0 +1,38 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+    <string name="app_name">Calendar.io</string>
+    <string name="action_settings">Settings</string>
+    <string name="hello_world">Hello world!</string>
+    <string name="novo">Novo</string>
+    <string name="listar">Listar</string>
+    <string name="title_activity_cadastro_usuario">CadastroUsuarioActivity</string>
+    <string name="nome">Nome</string>
+    <string name="username">Username</string>
+    <string name="senha">Senha</string>
+    <string name="confirmacao">Confirmação</string>
+    <string name="cancelar">Cancelar</string>
+    <string name="salvar">Salvar</string>
+    <string name="title_activity_lista_usuarios">ListaUsuariosActivity</string>
+    <string name="fechar">Fechar</string>
+    <string name="editar">Editar</string>
+    <string name="excluir">Excluir</string>
+    <string name="title_activity_pessoa">PessoaActivity</string>
+    <string name="sexo">Sexo</string>
+    <string name="telefone">Telefone</string>
+    <string name="masculino">Masculino</string>
+    <string name="feminino">Feminino</string>
+    <string name="usu_rios">Usuários</string>
+    <string name="usuarios">Usuarios</string>
+    <string name="cadastro_usuarios">Cadastro Usuarios</string>
+    <string name="cadastro_pessoas">Cadastro Pessoas</string>
+    <string name="calend">Calendar.io</string>
+    <string name="novoUsuario">Novo Usuário</string>
+    <string name="listaUsuario">Listar Usuários</string>
+    <string name="novoPessoa">Nova Pessoa</string>
+    <string name="listaPessoa">Listar Pessoas</string>
+    <string name="cadUser">Cadastrar Usuário</string>
+      <string name="cadPessoa">Cadastrar Pessoa</string>
+    
+
+</resources>
